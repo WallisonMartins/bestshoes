@@ -35,6 +35,7 @@ module.exports = {
     'no-console': ['off', { allow: ['tron'] }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'jsx-a11y/anchor-is-valid': 'off',
 
     'react/jsx-props-no-spreading': 'off',
   },

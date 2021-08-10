@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const NavBarContainer = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const NavBarContainer = styled.div`
   padding: 10px 24px;
   position: relative;
   top: 0;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
   width: 100%;
   z-index: 100;
 
@@ -42,7 +42,7 @@ export const NavBarMain = styled.div`
       color: #5340ff;
     }
   }
-`
+`;
 
 export const NavBarMenu = styled.ul`
   display: flex;
@@ -61,15 +61,14 @@ export const NavBarMenu = styled.ul`
         color: #5340ff;
       }
     }
-
   }
-`
+`;
 
 export const NavBarLogged = styled.ul`
   display: flex;
   align-items: center;
-  
-  li { 
+
+  li {
     margin-right: 32px;
   }
 
@@ -77,36 +76,7 @@ export const NavBarLogged = styled.ul`
     padding-right: 32px;
     border-right: 1px solid #eee;
   }
-
-
-  /* li {
-    margin-right: 32px;
-
-    a {
-      color: #090b17;
-      font-size: 16px;
-      font-weight: normal;
-    }
-  } */
-
-  
-
-  /* button {
-    background: #5340ff;
-    border: none;
-    color: #fff;
-    display: inline-block;
-    font-family: Circular,Arial,sans-serif;
-    font-weight: 300;
-    transition: all .2s ease-in-out;
-    border-radius: 4px;
-    font-size: 14px;
-    height: 48px;
-    line-height: 18px;
-    padding: 15px 24px;
-    margin-left: 24px;
-  } */
-`
+`;
 
 export const Badge = styled.button`
   background: none;
@@ -127,19 +97,4 @@ export const Badge = styled.button`
   > span {
     position: relative;
   }
-
-  /* ${(props) =>
-    props.hasUnread &&
-    css`
-      &:after {
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 8px;
-        height: 8px;
-        background: #ff892e;
-        content: '';
-        border-radius: 50%;
-      }
-    `} */
 `;

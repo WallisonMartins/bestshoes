@@ -21,7 +21,6 @@ export const Container = styled.div`
       height: 1px;
       width: 100%;
       background: #eee;
-      /* background: #dae2f2; */
     }
   }
 `;

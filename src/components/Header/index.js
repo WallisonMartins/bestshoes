@@ -1,13 +1,21 @@
 import React from 'react';
 
-import { AiOutlineUser, AiOutlineShopping, AiOutlineSearch } from "react-icons/ai";
-import { FaRegHeart } from "react-icons/fa";
-
-
+import {
+  AiOutlineUser,
+  AiOutlineShopping,
+  AiOutlineSearch,
+} from 'react-icons/ai';
+import { FaRegHeart } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
 
-import { NavBarContainer, NavBarMain, NavBarMenu, NavBarLogged, Badge} from './styles';
+import {
+  NavBarContainer,
+  NavBarMain,
+  NavBarMenu,
+  NavBarLogged,
+  Badge,
+} from './styles';
 
 export default function Header() {
   return (
@@ -24,20 +32,20 @@ export default function Header() {
         </NavBarMenu>
         <NavBarLogged>
           <li>
-            <AiOutlineSearch size={22}/>
+            <AiOutlineSearch size={22} />
           </li>
           <li>
-            <FaRegHeart size={18}/>
+            <FaRegHeart size={18} />
           </li>
           <li>
-            <AiOutlineShopping size={22}/>
+            <AiOutlineShopping size={22} />
             <Badge />
           </li>
           <div className="icon-profile">
-            <AiOutlineUser size={22}/>
+            <AiOutlineUser size={22} />
           </div>
         </NavBarLogged>
       </NavBarMain>
     </NavBarContainer>
-  )
+  );
 }

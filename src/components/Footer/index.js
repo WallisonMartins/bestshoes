@@ -7,6 +7,5 @@ export default function Footer() {
     <Container>
       <p>2021 - Best-Shoes </p>
     </Container>
-  )
+  );
 }
-

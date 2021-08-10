@@ -14,9 +14,8 @@ export default function Home() {
         <ProductList>
           <Card />
         </ProductList>
-      </Container >
+      </Container>
       <Footer />
     </>
-  )
+  );
 }
-
