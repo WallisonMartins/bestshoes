@@ -1,0 +1,66 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 2
+    },
+    {
+      "id": 2,
+      "amount": 3
+    },
+    {
+      "id": 3,
+      "amount": 5
+    },
+    {
+      "id": 4,
+      "amount": 2
+    },
+    {
+      "id": 5,
+      "amount": 4
+    },
+    {
+      "id": 6,
+      "amount": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Tênis Nike Revolution 5 Masculino",
+      "price": 250.00,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-5-masculino/26/HZM-1731-026/HZM-1731-026_zoom1.jpg?ts=1610980230&ims=326x"
+    },
+    {
+      "id": 2,
+      "title": "Tênis Adidas Coreracer Masculino - Mescla",
+      "price": 139.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-coreracer-masculino/67/NQQ-4635-C67/NQQ-4635-C67_zoom1.jpg?ts=1610982902&ims=326x"
+    },
+    {
+      "id": 3,
+      "title": "Tênis Adidas Duramo Lite 2.0 - Masculino",
+      "price": 219.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-11-masculino/66/HZM-5208-066/HZM-5208-066_zoom1.jpg?ts=1620698914&ims=326x"
+    },
+    {
+      "id": 4,
+      "title": "Tênis Adidas Coreracer Feminino",
+      "price": 149.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-coreracer-feminino/54/NQQ-4636-354/NQQ-4636-354_zoom1.jpg?ts=1616774731&ims=326x"
+    },
+    {
+      "id": 5,
+      "title": "Tênis Adidas Lite Racer 2.0 Feminino",
+      "price": 199.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-lite-racer-20-feminino/60/NQQ-0143-060/NQQ-0143-060_detalhe1.jpg?ts=1599854159?ims=280x280"
+    },
+    {
+      "id": 6,
+      "title": "Tênis Nike Revolution 5 Feminino",
+      "price": 219.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-5-feminino/26/HZM-1729-026/HZM-1729-026_zoom1.jpg?ts=1569489067&ims=326x"
+    }
+  ]
+}
