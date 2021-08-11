@@ -72,7 +72,7 @@ export const ProductOnCart = styled.div`
 
     justify-content: center;
     align-items: center;
-    background: #eef;
+    background: #fee;
     height: 40px;
     width: 40px;
     border-radius: 50%;

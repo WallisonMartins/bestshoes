@@ -7,6 +7,7 @@ import { Container, ProductOnCart } from './styles';
 export default function Cart() {
   return (
     <Container>
+      {/* <h1>Produtos adicionados ao carrinho</h1> */}
       <ProductOnCart>
         <img
           src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-5-masculino/26/HZM-1731-026/HZM-1731-026_zoom1.jpg?ts=1610980230&ims=326x"
@@ -27,7 +28,7 @@ export default function Cart() {
           </div>
         </div>
         <div className="btn-trash">
-          <FaRegTrashAlt size={16} color="#5340ff" />
+          <FaRegTrashAlt size={16} color="#ff4053" />
         </div>
       </ProductOnCart>
     </Container>
