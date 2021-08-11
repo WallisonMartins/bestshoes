@@ -20,15 +20,15 @@ import {
 export default function Header() {
   return (
     <NavBarContainer>
-      <Link>BEST-SHOES</Link>
+      <Link to="/">BEST-SHOES</Link>
       <NavBarMain>
         <NavBarMenu>
           <li>
-            <Link>Home</Link>
+            <Link to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link>Add</Link>
-          </li>
+          </li> */}
         </NavBarMenu>
         <NavBarLogged>
           <li>
@@ -38,8 +38,10 @@ export default function Header() {
             <FaRegHeart size={18} />
           </li>
           <li>
-            <AiOutlineShopping size={22} />
-            <Badge />
+            <Link to="/cart">
+              <AiOutlineShopping size={22} />
+              <Badge />
+            </Link>
           </li>
           <div className="icon-profile">
             <AiOutlineUser size={22} />

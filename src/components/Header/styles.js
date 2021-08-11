@@ -32,7 +32,7 @@ export const NavBarMain = styled.div`
   padding-left: 48px;
 
   .icon-profile {
-    background: #f3f4ff;
+    background: #eef;
     border-radius: 50%;
     padding: 10px 11px;
     cursor: pointer;
