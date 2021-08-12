@@ -26,25 +26,24 @@ export default function Card() {
 
   return (
     <>
-      {products &&
-        products.map((product) => (
-          <CardContainer key={product.id}>
-            <button type="button" className="btn-like" onClick={handleLike}>
-              {like ? (
-                <FaHeart size={14} color="#5340ff" />
-              ) : (
-                <FaRegHeart size={14} color="#5340ff" />
-              )}
-            </button>
-            <img src={product.image} alt={product.title} />
-            <p>{product.title}</p>
-            <span>R$ 250,00</span>
+      {products.map((product) => (
+        <CardContainer key={product.id}>
+          <button type="button" className="btn-like" onClick={handleLike}>
+            {like ? (
+              <FaHeart size={14} color="#5340ff" />
+            ) : (
+              <FaRegHeart size={14} color="#5340ff" />
+            )}
+          </button>
+          <img src={product.image} alt={product.title} />
+          <p>{product.title}</p>
+          <span>R$ 250,00</span>
 
-            <button type="button" className="btn-add-to-cart">
-              <span>ADICIONAR AO CARRINHO</span>
-            </button>
-          </CardContainer>
-        ))}
+          <button type="button" className="btn-add-to-cart">
+            <span>ADICIONAR AO CARRINHO</span>
+          </button>
+        </CardContainer>
+      ))}
     </>
   );
 }

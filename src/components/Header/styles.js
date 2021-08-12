@@ -57,6 +57,10 @@ export const NavBarMenu = styled.ul`
       font-size: 16px;
       font-weight: normal;
 
+      svg {
+        color: #090b17;
+      }
+
       &:hover {
         color: #5340ff;
       }
@@ -70,6 +74,10 @@ export const NavBarLogged = styled.ul`
 
   li {
     margin-right: 32px;
+
+    svg {
+      color: #090b17;
+    }
   }
 
   & li:nth-child(3) {
