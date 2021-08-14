@@ -7,7 +7,7 @@ import { Container, ProductOnCart } from './styles';
 export default function Cart() {
   return (
     <Container>
-      {/* <h1>Produtos adicionados ao carrinho</h1> */}
+      <h1>Produtos adicionados ao carrinho</h1>
       <ProductOnCart>
         <img
           src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-5-masculino/26/HZM-1731-026/HZM-1731-026_zoom1.jpg?ts=1610980230&ims=326x"
